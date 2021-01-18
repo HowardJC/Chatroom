@@ -1,0 +1,16 @@
+bidict==0.21.2
+certifi==2020.12.5
+click==7.1.2
+Flask==1.1.2
+Flask-SocketIO==5.0.1
+Flask-SQLAlchemy @ file:///home/conda/feedstock_root/build_artifacts/flask-sqlalchemy_1594747318500/work
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe @ file:///D:/bld/markupsafe_1610127696479/work
+python-dotenv==0.15.0
+python-engineio==4.0.0
+python-socketio==5.0.4
+SQLAlchemy @ file:///D:/bld/sqlalchemy_1610127448094/work
+tornado==6.1
+Werkzeug==1.0.1
+wincertstore==0.2
