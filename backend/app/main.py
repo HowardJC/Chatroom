@@ -8,6 +8,7 @@ app.config["SQLALCHEMY_DATABASE_URI"]="sqlite:///../Chat.db"
 import app.sockets.SocketSetup as sockets
 
 from app.routes.register import *
+from app.routes.login import *
 
 
 

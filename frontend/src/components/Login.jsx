@@ -4,13 +4,12 @@ import Alert from "./Alert";
 
 class Login extends Component {
     state = { err: "" };
-
     login = (e) => {
         e.preventDefault();
         axios
             .post("http://localhost:5000/api/login", {
-                email: document.getElementById("email").value,
-                pwd: document.getElementById("password").value,
+                Email: document.getElementById("email").value,
+                Password: document.getElementById("password").value,
             })
             .then((res) => {
                 if (res.data.error) {
