@@ -11,6 +11,7 @@ def getUsers(email):
 @app.route("/api/register", methods=["POST"])
 def register():
     try:
+        print("Registering!")
         Email=request.json["Email"]
         Username=request.json["Username"]
         Password=request.json["Password"]

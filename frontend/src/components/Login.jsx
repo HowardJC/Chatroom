@@ -5,6 +5,7 @@ import Alert from "./Alert";
 class Login extends Component {
     state = { err: "" };
     login = (e) => {
+        console.log("Submitting login")
         e.preventDefault();
         axios
             .post("http://localhost:5000/api/login", {
@@ -16,7 +17,10 @@ class Login extends Component {
                     this.setState({ err: res.data.error });
                 } else {
                     this.setState({ login: true });
+                    localStorage.setItem("token",res.data.token)
+                    console.log(localStorage["token"])
                 }
+
             });
     };
 

@@ -7,6 +7,7 @@ class Register extends Component {
 
     register = (e) => {
         e.preventDefault();
+        console.log("Submitting Register")
         axios
             .post("http://localhost:5000/api/register", {
                 Email: document.getElementById("email").value,

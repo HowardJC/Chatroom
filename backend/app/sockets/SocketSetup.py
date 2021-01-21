@@ -8,7 +8,7 @@ from app.main import app
 
 socketio=SocketIO(app)
 app.debug=True
-app.host='localhost:2000'
+app.host='localhost:5000'
 socketio = SocketIO(app,cors_allowed_origins='*')
 
 
