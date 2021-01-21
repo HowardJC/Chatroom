@@ -25,7 +25,7 @@ def login():
         if ActiveUsers!=False:
             print("Proper Login", ActiveUsers)
             token=create_access_token(identity=ActiveUsers);
-            print("FAT Fuck")
+
             return jsonify({"token":token});
         else:
             print("Error Logging in")
