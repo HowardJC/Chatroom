@@ -1,1 +1,2 @@
-Basic website example done for alternative sign in during officier meeting of club done in react and flask
+react and flask
+Chatroom being made for a bet with the rules of not using firebase or cloud functions
